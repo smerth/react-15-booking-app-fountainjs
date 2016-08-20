@@ -1,0 +1,87 @@
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body, h1, h2, h3 {
+  font-weight: 300
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: #5aadbb;
+  }
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+/**  Interface Styles **/
+
+.interface { 
+	font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  position: relative;
+}
+
+.interface .apt-addheading {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+}
+
+.interface .item-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 10px 5%;
+  // font-size: 1rem;
+}
+
+.interface .item-list .pet-item {
+  border-bottom: 1px dotted gray;
+  padding-bottom: 10px;
+}
+
+.interface .item-list .pet-item:last-child {
+  border-bottom: none;
+}
+
+.interface .item-list .pet-name {
+  font-weight: 600;
+  color: #337ab7;
+  // font-size: 1.3em;
+  line-height: 100%;
+}
+
+.interface .item-list .pet-info {
+  // font-size: 1.7em;
+}
+
+.interface .item-list .label-item {
+  font-weight: 600;
+  color: #667B82;
+}
+
+.interface .item-list .pet-delete {
+  // font-size: 1.2em;
+}
+
+.interface .item-list .apt-date {
+  font-style: italic;
+}
+
+.interface .item-list .apt-notes {
+
+}
+
+.component-title a {
+    color: yellow;
+}
