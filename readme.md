@@ -4,7 +4,7 @@
 
 An app to book an appointment for a pet to visit a vet, from the Lynda.com course [Building a Web Interface with React.js](https://www.lynda.com/React-js-tutorials/Building-Web-Interface-React-js/495271-2.html), but starting from the FountainJS [fountain-react](http://fountainjs.io/doc) generator.
 
-![App Screenshot](screenshot.jpg)
+![App Screenshot](Screenshot.jpg)
 
 ##  Usage
 
