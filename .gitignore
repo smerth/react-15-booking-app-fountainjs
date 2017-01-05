@@ -1,7 +1,25 @@
-.tmp/
-coverage/
+# Apple stuff
+.DS_Store
+.tmp
+
+# Caches
+.sass-cache
+
+# Modules
+bower_components
+node_modules
+jspm_packages
+
+# Gulp generated builds
+builds/
 dist/
-node_modules/
-jspm_packages/
-bower_components/
-.publish/
+
+# Gulp gh-pages 
+.publish
+
+# Tests
+coverage/
+
+
+
+
