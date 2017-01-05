@@ -53,6 +53,7 @@ module.exports = {
   postcss: () => [autoprefixer],
   output: {
     path: path.join(process.cwd(), conf.paths.dist),
+    publicPath: "/react-15-booking-app-fountainjs",
     filename: '[name]-[hash].js'
   },
   entry: {
